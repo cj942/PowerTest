@@ -6,13 +6,7 @@
 --------------------Configuration: PowerSupply - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\CJ\AppData\Local\Temp\RSP4DEB.tmp" with contents
-[
-/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/PowerSupply.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
-"C:\Users\CJ\Desktop\EXPERIMENTS\vc6\PowerSupply2011-09-09\PowerSupplyDlg.cpp"
-]
-Creating command line "cl.exe @C:\Users\CJ\AppData\Local\Temp\RSP4DEB.tmp" 
-Creating temporary file "C:\Users\CJ\AppData\Local\Temp\RSP4DEC.tmp" with contents
+Creating temporary file "C:\Users\CJ\AppData\Local\Temp\RSP57FD.tmp" with contents
 [
 /nologo /subsystem:windows /incremental:no /pdb:"Release/PowerSupply.pdb" /machine:I386 /out:"Release/PowerSupply.exe" 
 ".\Release\excel9.obj"
@@ -27,16 +21,10 @@ Creating temporary file "C:\Users\CJ\AppData\Local\Temp\RSP4DEC.tmp" with conten
 ".\Release\StdAfx.obj"
 ".\Release\PowerSupply.res"
 ]
-Creating command line "link.exe @C:\Users\CJ\AppData\Local\Temp\RSP4DEC.tmp"
+Creating command line "link.exe @C:\Users\CJ\AppData\Local\Temp\RSP57FD.tmp"
 <h3>Output Window</h3>
-Compiling...
-PowerSupplyDlg.cpp
-C:\Users\CJ\Desktop\EXPERIMENTS\vc6\PowerSupply2011-09-09\PowerSupplyDlg.cpp(1263) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-C:\Users\CJ\Desktop\EXPERIMENTS\vc6\PowerSupply2011-09-09\PowerSupplyDlg.cpp(1264) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-C:\Users\CJ\Desktop\EXPERIMENTS\vc6\PowerSupply2011-09-09\PowerSupplyDlg.cpp(1265) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-C:\Users\CJ\Desktop\EXPERIMENTS\vc6\PowerSupply2011-09-09\PowerSupplyDlg.cpp(1266) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
 Linking...
-Creating temporary file "C:\Users\CJ\AppData\Local\Temp\RSP5B26.tmp" with contents
+Creating temporary file "C:\Users\CJ\AppData\Local\Temp\RSP619F.tmp" with contents
 [
 /nologo /o"Release/PowerSupply.bsc" 
 ".\Release\StdAfx.sbr"
@@ -49,14 +37,14 @@ Creating temporary file "C:\Users\CJ\AppData\Local\Temp\RSP5B26.tmp" with conten
 ".\Release\ResA.sbr"
 ".\Release\Resistance.sbr"
 ".\Release\SerialsInputDialog.sbr"]
-Creating command line "bscmake.exe @C:\Users\CJ\AppData\Local\Temp\RSP5B26.tmp"
+Creating command line "bscmake.exe @C:\Users\CJ\AppData\Local\Temp\RSP619F.tmp"
 Creating browse info file...
 <h3>Output Window</h3>
 
 
 
 <h3>Results</h3>
-PowerSupply.exe - 0 error(s), 4 warning(s)
+PowerSupply.exe - 0 error(s), 0 warning(s)
 </pre>
 </body>
 </html>
