@@ -501,7 +501,7 @@ void CIT6832Dlg::OnBtnVoltUp()
 	}
 
 }
-///////////////////////////////////////////////////////////输出电压以volStep的步进下降
+/////////////////////////////////////////////输出电压以volStep的步进下降
 void CIT6832Dlg::OnBtnVoltDown() 
 {
 	// TODO: Add your control notification handler code here
