@@ -1151,7 +1151,7 @@ void CPowerSupplyDlg::UnderVoltage()
 	RatedLoadTest();
 }
 
-//////特殊功能项测试///////////
+//////特殊功能项测试////////////////////
 void CPowerSupplyDlg::OnOvercurrentTest() 
 {
 	// TODO: Add your command handler code here

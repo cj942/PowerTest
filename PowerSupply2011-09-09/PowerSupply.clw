@@ -16,10 +16,10 @@ Class3=CAboutDlg
 Class4=CPowerSupplyDlg
 
 ResourceCount=5
-Resource1=IDD_ABOUTBOX
-Resource2=IDD_POWERSUPPLY_DIALOG
-Resource3=IDD_LOGIN
-Resource4=IDD_DIALOG_INPUTSERIALS
+Resource1=IDD_POWERSUPPLY_DIALOG
+Resource2=IDD_LOGIN
+Resource3=IDD_DIALOG_INPUTSERIALS
+Resource4=IDD_ABOUTBOX
 Class5=CSerialsInputDialog
 Resource5=IDR_MENU1
 

@@ -6,7 +6,28 @@
 --------------------Configuration: PowerSupply - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\CJ\AppData\Local\Temp\RSP57FD.tmp" with contents
+Creating command line "rc.exe /l 0x804 /fo"Release/PowerSupply.res" /d "NDEBUG" /d "_AFXDLL" "E:\git\PowerSupply2011-09-09\PowerSupply.rc"" 
+Creating temporary file "D:\DOCUME~1\caojie\LOCALS~1\Temp\RSP138.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/PowerSupply.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\git\PowerSupply2011-09-09\excel9.cpp"
+"E:\git\PowerSupply2011-09-09\Login.cpp"
+"E:\git\PowerSupply2011-09-09\mscomm.cpp"
+"E:\git\PowerSupply2011-09-09\Power.cpp"
+"E:\git\PowerSupply2011-09-09\PowerSupply.cpp"
+"E:\git\PowerSupply2011-09-09\PowerSupplyDlg.cpp"
+"E:\git\PowerSupply2011-09-09\ResA.cpp"
+"E:\git\PowerSupply2011-09-09\Resistance.cpp"
+"E:\git\PowerSupply2011-09-09\SerialsInputDialog.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\caojie\LOCALS~1\Temp\RSP138.tmp" 
+Creating temporary file "D:\DOCUME~1\caojie\LOCALS~1\Temp\RSP139.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/PowerSupply.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\git\PowerSupply2011-09-09\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\caojie\LOCALS~1\Temp\RSP139.tmp" 
+Creating temporary file "D:\DOCUME~1\caojie\LOCALS~1\Temp\RSP13A.tmp" with contents
 [
 /nologo /subsystem:windows /incremental:no /pdb:"Release/PowerSupply.pdb" /machine:I386 /out:"Release/PowerSupply.exe" 
 ".\Release\excel9.obj"
@@ -21,10 +42,28 @@ Creating temporary file "C:\Users\CJ\AppData\Local\Temp\RSP57FD.tmp" with conten
 ".\Release\StdAfx.obj"
 ".\Release\PowerSupply.res"
 ]
-Creating command line "link.exe @C:\Users\CJ\AppData\Local\Temp\RSP57FD.tmp"
+Creating command line "link.exe @D:\DOCUME~1\caojie\LOCALS~1\Temp\RSP13A.tmp"
 <h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+excel9.cpp
+Login.cpp
+mscomm.cpp
+Power.cpp
+PowerSupply.cpp
+PowerSupplyDlg.cpp
+E:\git\PowerSupply2011-09-09\PowerSupplyDlg.cpp(1263) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\git\PowerSupply2011-09-09\PowerSupplyDlg.cpp(1264) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\git\PowerSupply2011-09-09\PowerSupplyDlg.cpp(1265) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\git\PowerSupply2011-09-09\PowerSupplyDlg.cpp(1266) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+ResA.cpp
+Resistance.cpp
+SerialsInputDialog.cpp
+Generating Code...
 Linking...
-Creating temporary file "C:\Users\CJ\AppData\Local\Temp\RSP619F.tmp" with contents
+Creating temporary file "D:\DOCUME~1\caojie\LOCALS~1\Temp\RSP13C.tmp" with contents
 [
 /nologo /o"Release/PowerSupply.bsc" 
 ".\Release\StdAfx.sbr"
@@ -37,14 +76,14 @@ Creating temporary file "C:\Users\CJ\AppData\Local\Temp\RSP619F.tmp" with conten
 ".\Release\ResA.sbr"
 ".\Release\Resistance.sbr"
 ".\Release\SerialsInputDialog.sbr"]
-Creating command line "bscmake.exe @C:\Users\CJ\AppData\Local\Temp\RSP619F.tmp"
+Creating command line "bscmake.exe @D:\DOCUME~1\caojie\LOCALS~1\Temp\RSP13C.tmp"
 Creating browse info file...
 <h3>Output Window</h3>
 
 
 
 <h3>Results</h3>
-PowerSupply.exe - 0 error(s), 0 warning(s)
+PowerSupply.exe - 0 error(s), 4 warning(s)
 </pre>
 </body>
 </html>
